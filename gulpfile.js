@@ -14,5 +14,5 @@ gulp.task('serve', function() {
     }
   });
 
-  gulp.watch(['*.html', 'public/static/css/*.css', 'public/static/js/*.js'], {cwd: './'}, reload);
+  gulp.watch(['*.html','app/*.html','public/static/css/*.css', 'public/static/js/*.js'], {cwd: './'}, reload);
 });

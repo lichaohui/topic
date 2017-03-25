@@ -1,14 +1,7 @@
 /* global fullpage */
 "use strict";
 
-$(function(){
-  //页面loading效果加载
-  $(".fakeloader").fakeLoader({
-    timeToHide:3000,
-    bgColor:"rgba(100,100,100,0.6)",
-    spinner:"spinner3",
-  });
-  
+$(function(){  
   //动态设置一些元素的css样式
   let w=$('.fp-section-content').width();
   let pw=$('.people').width();
