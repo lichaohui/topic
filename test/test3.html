@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>test3</title>
+    <link href="../node_modules/fullpage/build/fullpage.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/base.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/point.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/graph.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/fullpage/build/fullpage.min.js"></script>
+    <script src="../node_modules/graph/build/js/base.js"></script>
+    <script src="../node_modules/graph/build/js/point.js"></script>
+    <script src="../node_modules/graph/build/js/graph.js"></script>
+    <script>
+      $(function(){
+        var grapher=new graph();
+        grapher.addPage('course').addComponent('distributed',{
+          'type':'point',
+          'fullsize':500,
+          'data':[
+            {
+              'title':'html',
+              'value':0.4,
+              'bgcolor':'red',
+            },
+            {
+              'title':'css',
+              'value':0.3,
+              'bgcolor':'green',
+              'offsetLeft':'15%',
+              'offsetTop':'30%',
+            },
+            {
+              'title':'javascript',
+              'value':0.3,
+              'bgcolor':'blue',
+              'offsetLeft':'30%',
+              'offsetTop':'30%',
+            },
+          ],
+          'animateIn':{
+            'opacity':'1'
+          },
+          'animateOut':{
+            'opacity':0
+          },
+        }).load();
+      })
+    </script>
+  </body>
+</html>

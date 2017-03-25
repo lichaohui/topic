@@ -1,0 +1,25 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "组件化开发webapp",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webapp"
+  ],
+  "author": "lichaohui",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "easings": "^1.1.1",
+    "echarts": "^3.4.0",
+    "fullpage": "^1.4.2",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1"
+  }
+}

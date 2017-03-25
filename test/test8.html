@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>index</title>
+    <link href="bower_components/fakeLoader/fakeLoader.css">
+   
+  </head>
+  <body>
+    <div id="sectionContent" class="fp-section-content">
+      adsd
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/fakeLoader/fakeLoader.min.js"></script>
+    <script>
+    $("body").fakeLoader({
+      //Time in milliseconds for fakeLoader disappear
+      timeToHide:1200,
+      // Default zIndex
+      zIndex:999, 
+      //Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
+      spinner:"spinner2",
+      //Hex, RGB or RGBA colors
+      bgColor:"#2ecc71", 
+    });
+    </script>
+  </body>
+</html>

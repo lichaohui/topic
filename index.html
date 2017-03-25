@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>index</title>
+    <link href="node_modules/fullpage/build/fullpage.css" rel="stylesheet">
+    <link href="bower_components/fakeLoader/fakeLoader.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="fakeloader"></div>
+    <div id="sectionContent" class="fp-section-content">
+      <div class="index fp-section">
+        <h1 class="logo animate-in-logo" data-animate='logo'>
+          <img src="image/face_logo.png" width="50%">
+        </h1>
+        <h2 class="slogan animate-in-slogan" data-animate='slogan'>
+          <img src="image/face_slogan.png" width="50%">
+        </h2>
+        <img src="image/face_img_left.png" class="computer animate-in-computer" width="50%" data-animate='computer'>
+        <img src="image/face_img_right.png" class="note animate-in-note" width="50%" data-animate='note'>
+      </div>
+      <div class="core fp-section">
+        <h2 class="caption animate-out-caption" data-animate='caption'>核心理念</h2>
+        <img src="image/tail_logo.png" width="50%" class="idea animate-out-idea" data-animate='idea'>
+        <div class="concept animate-out-concept" data-animate='concept'>
+          <P>曾经，我们都以为离开彼此后，依旧能过的很好，可是，这个冬季，当寒流突袭，当我们还想再紧紧拥抱一次时，却只能用彼此指尖的余温拥抱自己。分开后，当朋友问起我们，我都会轻描淡写一笑而过，其实，我们都清楚，没有彼此的世界，我们都不快乐。其实，我给你的爱，比你想的多。分开后，当朋友问起我们，我都会轻描淡写一笑而过，其实，我们都清楚，没有彼此的世界，我们都不快乐。其实，我给你的爱，比你想的多。</P>
+        </div>
+        <img src="image/p1_people.png" width="60%" class="people animate-out-people" data-animate='people'>
+      </div>
+      <div class="pie fp-section" data-echart="distributed">
+        <h2 class="caption animate-out-caption" data-animate='caption'>课程分布</h2>
+        <div id="distributed" class="echart"></div>
+      </div>
+      <div class="pie fp-section" data-echart="heat">
+        <h2 class="caption animate-out-caption" data-animate='caption'>课程热度</h2>
+        <div id="heat" class="echart"></div>
+      </div>
+      <div class="pie fp-section" data-echart='income'>
+        <h2 class="caption animate-out-caption" data-animate='caption'>收入走势</h2>
+        <div id="income" class="echart"></div>
+      </div>
+      <div class="pie fp-section" data-echart='skill'>
+        <h2 class="caption animate-out-caption" data-animate='caption'>技能分析</h2>
+        <div id="skill" class="echart"></div>
+      </div>
+      <div class="pie fp-section" data-echart='age'>
+        <h2 class="caption animate-out-caption" data-animate='caption'>年龄分布</h2>
+        <div id="age" class="echart"></div>
+      </div>
+      <div class="bye fp-section">
+        <button type="button" class="back animate-back"></button>
+        <img src="image/tail_logo.png" width="50%" class="logo1 animate-out-logo1" data-animate='logo1'>
+        <img src="image/tail_slogan.png" width="50%" class="slogan animate-out-slogan" data-animate='slogan'>
+      </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/fakeLoader/fakeLoader.min.js"></script>
+    <script src="node_modules/fullpage/build/fullpage.min.js"></script>
+    <script src='node_modules/echarts/dist/echarts.min.js'></script>
+    <script src="js/echart.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

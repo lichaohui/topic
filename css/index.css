@@ -1,0 +1,14 @@
+.fp-section-content{max-width: 640px; margin: 0 auto;}
+.index{background: url(../image/face_bg.png) center no-repeat; width: 100%; text-align: center; }
+.logo{max-width: 480px; margin: 0 auto;}
+.slogan{opacity: 0; max-width: 360px; margin: 0 auto; display: block;}
+.computer{position: absolute; left: -500px; bottom: -500px; max-width: 180px;}
+.note{position: absolute; right: -500px; bottom:-500px; max-width: 140px;}
+.core,.bye,.pie{background: url(../image/page_bg.png) center no-repeat; width: 100%;}
+.caption{background: url(../image/page_caption_bg.png) no-repeat; width: 0; height: 47px; color: white; line-height: 38px; text-align: center; overflow: hidden; font-size: 20px; margin-top: 4%;}
+.idea,.logo1{margin: -500px auto auto auto; display: block; max-width: 180px;}
+.people{position: absolute; bottom: -500px; max-width: 300px;}
+.concept{background: url(../image/description_bg.png) center no-repeat; width: 338px; height: 217px; color: white; font-size: 12px; line-height: 20px; margin: 0 auto; padding-top: 20px; opacity: 0;}
+.concept p{width: 90%; margin:0 auto;}
+.back{background: url(../image/tail_back.png) no-repeat; width: 52px; height: 50px; border: none; margin: 10px auto; display: block;}
+.echart{width: 90%; margin: 0 auto; height: 500px;}

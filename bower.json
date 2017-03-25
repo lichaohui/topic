@@ -1,0 +1,23 @@
+{
+  "name": "动画专题页",
+  "description": "组件化开发webapp",
+  "main": "index.js",
+  "authors": [
+    "lichaohui"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "webapp"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fakeLoader": "fakeloader#*"
+  }
+}

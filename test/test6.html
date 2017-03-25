@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>test6</title>
+    <link href="../node_modules/fullpage/build/fullpage.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/base.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/radar.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/graph.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/fullpage/build/fullpage.min.js"></script>
+    <script src="../node_modules/graph/build/js/base.js"></script>
+    <script src="../node_modules/graph/build/js/radar.js"></script>
+    <script src="../node_modules/graph/build/js/graph.js"></script>
+    <script>
+      $(function(){
+        var grapher=new graph();
+        var w=$(window).width();
+        grapher.addPage('course').addComponent('distributed',{
+          'type':'radar',
+          'width':400,
+          'height':400,
+          'data':[
+            {
+              'title':'html',
+              'value':0.4,
+            },
+            {
+              'title':'css',
+              'value':0.3,
+            },
+            {
+              'title':'javascript',
+              'value':0.3,
+            },
+            {
+              'title':'php',
+              'value':0.2,
+            }
+          ],
+        }).load();
+      })
+    </script>
+  </body>
+</html>

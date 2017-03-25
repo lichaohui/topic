@@ -1,0 +1,553 @@
+.animate-in-logo{ animation: logo-in 1s ease forwards;
+-moz-animation: logo-in 1s ease forwards;	/* Firefox */-webkit-animation: logo-in 1s ease forwards;	/* Safari 和 Chrome */-o-animation: logo-in 1s ease forwards;	/* Opera */}
+@keyframes logo-in
+{
+  from{margin-top:-100px;}
+  to{margin-top: 5%}
+}
+
+@-moz-keyframes logo-in /* Firefox */
+{
+  from{margin-top:-100px;}
+  to{margin-top: 5%}
+}
+
+@-webkit-keyframes logo-in /* Safari 和 Chrome */
+{
+  from{margin-top:-100px;}
+  to{margin-top: 5%}
+}
+
+@-o-keyframes logo-in /* Opera */
+{
+  from{margin-top:-100px;}
+  to{margin-top: 5%}
+}
+.animate-out-logo{ animation: logo-out 1s ease forwards;
+-moz-animation: logo-out 1s ease forwards;	/* Firefox */-webkit-animation: logo-out 1s ease forwards;	/* Safari 和 Chrome */-o-animation: logo-out 1s ease forwards;	/* Opera */}
+@keyframes logo-out
+{
+  from{margin-top:10%;}
+  to{margin-top: -100px;}
+}
+
+@-moz-keyframes logo-out /* Firefox */
+{
+  from{margin-top:10%;}
+  to{margin-top: -100px;}
+}
+
+@-webkit-keyframes logo-out /* Safari 和 Chrome */
+{
+  from{margin-top:10%;}
+  to{margin-top: -100px;}
+}
+
+@-o-keyframes logo-out /* Opera */
+{
+  from{margin-top:10%;}
+  to{margin-top: -00px;}
+}
+
+.animate-in-slogan{animation: slogan-in 3s ease 2s forwards;-moz-animation: slogan-in 3s ease 2s forwards;	/* Firefox */-webkit-animation: slogan-in 3s ease 2s forwards;	/* Safari 和 Chrome */-o-animation: slogan-in 3s ease 2s forwards;	/* Opera */ }
+@keyframes slogan-in
+{
+  0%{transform:rotate(0deg); opacity: 0;}
+  5%{transform:rotate(3deg); }
+  10%{transform:rotate(-4deg);}
+  15%{transform:rotate(3deg);}
+  20%{transform:rotate(-2deg);}
+  25%{transform:rotate(1deg);}
+  30%{transform:rotate(-1deg);}
+  70%{transform:rotate(0deg);}
+  100%{transform:rotate(0deg); opacity: 1;}
+}
+
+@-moz-keyframes slogan-in /* Firefox */
+{
+  0%{transform:rotate(0deg); opacity: 0;}
+  5%{transform:rotate(3deg); }
+  10%{transform:rotate(-4deg);}
+  15%{transform:rotate(3deg);}
+  20%{transform:rotate(-2deg);}
+  25%{transform:rotate(1deg);}
+  30%{transform:rotate(-1deg);}
+  70%{transform:rotate(0deg);}
+  100%{transform:rotate(0deg); opacity: 1;}
+}
+
+@-webkit-keyframes slogan-in /* Safari 和 Chrome */
+{
+  0%{transform:rotate(0deg); opacity: 0;}
+  5%{transform:rotate(3deg); }
+  10%{transform:rotate(-4deg);}
+  15%{transform:rotate(3deg);}
+  20%{transform:rotate(-2deg);}
+  25%{transform:rotate(1deg);}
+  30%{transform:rotate(-1deg);}
+  70%{transform:rotate(0deg);}
+  100%{transform:rotate(0deg); opacity: 1;}
+}
+
+@-o-keyframes slogan-in /* Opera */
+{
+  0%{transform:rotate(0deg); opacity: 0;}
+  5%{transform:rotate(3deg); }
+  10%{transform:rotate(-4deg);}
+  15%{transform:rotate(3deg);}
+  20%{transform:rotate(-2deg);}
+  25%{transform:rotate(1deg);}
+  30%{transform:rotate(-1deg);}
+  70%{transform:rotate(0deg);}
+  100%{transform:rotate(0deg); opacity: 1;}
+}
+
+.animate-out-slogan{animation: slogan-out 1s ease 0s forwards;-moz-animation: slogan-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: slogan-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: slogan-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes slogan-out
+{
+  from{opacity:1;}
+  to{opacity:0;}
+}
+
+@-moz-keyframes slogan-out /* Firefox */
+{
+  from{opacity:1;}
+  to{opacity:0;}
+}
+
+@-webkit-keyframes slogan-out /* Safari 和 Chrome */
+{
+  from{opacity:1;}
+  to{opacity:0;}
+}
+
+@-o-keyframes slogan-out /* Opera */
+{
+  from{opacity:1;}
+  to{opacity:0;}
+}
+
+.animate-in-computer{animation: computer-in 1s ease 1s forwards;-moz-animation: computer-in 1s ease 1s forwards;	/* Firefox */-webkit-animation: computer-in 1s ease 1s forwards;	/* Safari 和 Chrome */-o-animation: computer-in 1s ease 1s forwards;	/* Opera */ }
+@keyframes computer-in
+{
+  from{left:-500px; bottom: -500px;}
+  to{left: 0; bottom: 0;}
+}
+
+@-moz-keyframes computer-in /* Firefox */
+{
+  from{left:-500px; bottom: -500px;}
+  to{left: 0; bottom: 0;}
+}
+
+@-webkit-keyframes computer-in /* Safari 和 Chrome */
+{
+  from{left:-500px; bottom: -500px;}
+  to{left: 0; bottom: 0;}
+}
+
+@-o-keyframes computer-in /* Opera */
+{
+  from{left:-500px; bottom: -500px;}
+  to{left: 0; bottom: 0;}
+}
+
+.animate-out-computer{animation: computer-out 1s ease 0s forwards;-moz-animation: computer-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: computer-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: computer-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes computer-out
+{
+  from{left:0; bottom: 0;}
+  to{left: -500px; bottom: -500px;}
+}
+
+@-moz-keyframes computer-out /* Firefox */
+{
+  from{left:0; bottom: 0;}
+  to{left: -500px; bottom: -500px;}
+}
+
+@-webkit-keyframes computer-out /* Safari 和 Chrome */
+{
+  from{left:0; bottom: 0;}
+  to{left: -500px; bottom: -500px;}
+}
+
+@-o-keyframes computer-out /* Opera */
+{
+  from{left:0; bottom: 0;}
+  to{left: -500px; bottom: -500px;}
+}
+
+.animate-in-note{animation: note-in 1s ease 1s forwards;-moz-animation: note-in 1s ease 1s forwards;	/* Firefox */-webkit-animation: note-in 1s ease 1s forwards;	/* Safari 和 Chrome */-o-animation: note-in 1s ease 1s forwards;	/* Opera */ }
+@keyframes note-in
+{
+  from{right:-500px; bottom: -500px;}
+  to{right: 0; bottom: 0;}
+}
+
+@-moz-keyframes note-in /* Firefox */
+{
+  from{right:-500px; bottom: -500px;}
+  to{right: 0; bottom: 0;}
+}
+
+@-webkit-keyframes note-in /* Safari 和 Chrome */
+{
+  from{right:-500px; bottom: -500px;}
+  to{right: 0; bottom: 0;}
+}
+
+@-o-keyframes note-in /* Opera */
+{
+  from{right:-500px; bottom: -500px;}
+  to{right: 0; bottom: 0;}
+}
+
+.animate-out-note{animation: note-out 1s ease 0s forwards;-moz-animation: note-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: note-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: note-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes note-out
+{
+  from{right:0; bottom: 0;}
+  to{right: -500px; bottom: -500px;}
+}
+
+@-moz-keyframes note-out /* Firefox */
+{
+  from{right:0; bottom: 0;}
+  to{right: -500px; bottom: -500px;}
+}
+
+@-webkit-keyframes note-out /* Safari 和 Chrome */
+{
+  from{right:0; bottom: 0;}
+  to{right: -500px; bottom: -500px;}
+}
+
+@-o-keyframes note-out /* Opera */
+{
+  from{right:0; bottom: 0;}
+  to{right: -500px; bottom: -500px;}
+}
+
+.animate-in-caption{animation: caption-in 1s ease 0s forwards;-moz-animation: caption-in 1s ease 0s forwards;	/* Firefox */-webkit-animation: caption-in 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: caption-in 1s ease 0s forwards;	/* Opera */ }
+@keyframes caption-in
+{
+  from{width: 0;}
+  to{width: 211px;}
+}
+
+@-moz-keyframes caption-in /* Firefox */
+{
+  from{width: 0;}
+  to{width: 211px;}
+}
+
+@-webkit-keyframes caption-in /* Safari 和 Chrome */
+{
+  from{width: 0;}
+  to{width: 211px;}
+}
+
+@-o-keyframes caption-in /* Opera */
+{
+  from{width: 0;}
+  to{width: 211px;}
+}
+
+.animate-out-caption{animation: caption-out 1s ease 0s forwards;-moz-animation: caption-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: caption-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: caption-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes caption-out
+{
+  from{width: 211px;}
+  to{width: 0;}
+}
+
+@-moz-keyframes caption-out /* Firefox */
+{
+  from{width: 211px;}
+  to{width: 0;}
+}
+
+@-webkit-keyframes caption-out /* Safari 和 Chrome */
+{
+  from{width: 211px;}
+  to{width: 0;}
+}
+
+@-o-keyframes caption-out /* Opera */
+{
+  from{width: 211px;}
+  to{width: 0;}
+}
+
+.animate-in-idea{animation: idea-in 1s ease 1s forwards;-moz-animation: idea-in 1s ease 1s forwards;	/* Firefox */-webkit-animation: idea-in 1s ease 1s forwards;	/* Safari 和 Chrome */-o-animation: idea-in 1s ease 1s forwards;	/* Opera */ }
+@keyframes idea-in
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+@-moz-keyframes idea-in /* Firefox */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+@-webkit-keyframes idea-in /* Safari 和 Chrome */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+@-o-keyframes idea-in /* Opera */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+.animate-out-idea{animation: idea-out 1s ease 0s forwards;-moz-animation: idea-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: idea-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: idea-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes idea-out
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+@-moz-keyframes idea-out /* Firefox */
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+@-webkit-keyframes idea-out /* Safari 和 Chrome */
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+@-o-keyframes idea-out /* Opera */
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+.animate-in-idea{animation: idea-in 1s ease 1s forwards;-moz-animation: idea-in 1s ease 1s forwards;	/* Firefox */-webkit-animation: idea-in 1s ease 1s forwards;	/* Safari 和 Chrome */-o-animation: idea-in 1s ease 1s forwards;	/* Opera */ }
+@keyframes idea-in
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+@-moz-keyframes idea-in /* Firefox */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+@-webkit-keyframes idea-in /* Safari 和 Chrome */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+@-o-keyframes idea-in /* Opera */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 5%}
+}
+
+.animate-out-idea{animation: idea-out 1s ease 0s forwards;-moz-animation: idea-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: idea-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: idea-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes idea-out
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+@-moz-keyframes idea-out /* Firefox */
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+@-webkit-keyframes idea-out /* Safari 和 Chrome */
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+@-o-keyframes idea-out /* Opera */
+{
+  from{margin-top: 5%}
+  to{margin-top: -500px;}
+}
+
+.animate-in-people{animation: people-in 1s ease 1s forwards;-moz-animation: people-in 1s ease 1s forwards;	/* Firefox */-webkit-animation: people-in 1s ease 1s forwards;	/* Safari 和 Chrome */-o-animation: people-in 1s ease 1s forwards;	/* Opera */ }
+@keyframes people-in
+{
+  from{bottom: -500px;}
+  to{bottom: 0;}
+}
+
+@-moz-keyframes people-in /* Firefox */
+{
+  from{bottom: -500px;}
+  to{bottom: 0;}
+}
+
+@-webkit-keyframes people-in /* Safari 和 Chrome */
+{
+  from{bottom: -500px;}
+  to{bottom: 0;}
+}
+
+@-o-keyframes people-in /* Opera */
+{
+  from{bottom: -500px;}
+  to{bottom: 0;}
+}
+
+.animate-out-people{animation: people-out 1s ease 0s forwards;-moz-animation: people-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: people-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: people-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes people-out
+{
+  from{bottom: 0;}
+  to{bottom: -500px;}
+}
+
+@-moz-keyframes people-out /* Firefox */
+{
+  from{bottom: 0;}
+  to{bottom: -500px;}
+}
+
+@-webkit-keyframes people-out /* Safari 和 Chrome */
+{
+  from{bottom: 0;}
+  to{bottom: -500px;}
+}
+
+@-o-keyframes people-out /* Opera */
+{
+  from{bottom: 0;}
+  to{bottom: -500px;}
+}
+
+.animate-in-concept{animation: concept-in 1s ease 2s forwards;-moz-animation: concept-in 1s ease 2s forwards;	/* Firefox */-webkit-animation: concept-in 1s ease 2s forwards;	/* Safari 和 Chrome */-o-animation: concept-in 1s ease 2s forwards;	/* Opera */ }
+@keyframes concept-in
+{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-moz-keyframes concept-in /* Firefox */
+{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes concept-in /* Safari 和 Chrome */
+{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-o-keyframes concept-in /* Opera */
+{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.animate-out-concept{animation: concept-out 1s ease 0s forwards;-moz-animation: concept-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: concept-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: concept-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes concept-out
+{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+@-moz-keyframes concept-out /* Firefox */
+{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+@-webkit-keyframes concept-out /* Safari 和 Chrome */
+{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+@-o-keyframes concept-out /* Opera */
+{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+.animate-in-logo1{animation: logo1-in 1s ease 0s forwards;-moz-animation: logo1-in 1s ease 0s forwards;	/* Firefox */-webkit-animation: logo1-in 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: logo1-in 1s ease 0s forwards;	/* Opera */ }
+@keyframes logo1-in
+{
+  from{margin-top: -500px;}
+  to{margin-top: 30%}
+}
+
+@-moz-keyframes logo1-in /* Firefox */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 30%}
+}
+
+@-webkit-keyframes logo1-in /* Safari 和 Chrome */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 30%}
+}
+
+@-o-keyframes logo1-in /* Opera */
+{
+  from{margin-top: -500px;}
+  to{margin-top: 30%}
+}
+
+.animate-out-logo1{animation: logo1-out 1s ease 0s forwards;-moz-animation: logo1-out 1s ease 0s forwards;	/* Firefox */-webkit-animation: logo1-out 1s ease 0s forwards;	/* Safari 和 Chrome */-o-animation: logo1-out 1s ease 0s forwards;	/* Opera */ }
+@keyframes logo1-out
+{
+  from{margin-top: 30%}
+  to{margin-top: -500px;}
+}
+
+@-moz-keyframes logo1-out /* Firefox */
+{
+  from{margin-top: 30%}
+  to{margin-top: -500px;}
+}
+
+@-webkit-keyframes logo1-out /* Safari 和 Chrome */
+{
+  from{margin-top: 30%}
+  to{margin-top: -500px;}
+}
+
+@-o-keyframes logo1-out /* Opera */
+{
+  from{margin-top: 30%}
+  to{margin-top: -500px;}
+}
+
+.animate-back{animation: back 1s infinite alternate;-moz-animation: back 1s infinite alternate;	/* Firefox */-webkit-animation: back 1s infinite alternate;	/* Safari 和 Chrome */-o-animation: back 1s infinite alternate;	/* Opera */ }
+@keyframes back
+{
+  from{margin-top: 10px;}
+  to{margin-top: 30px;}
+}
+
+@-moz-keyframes back /* Firefox */
+{
+  from{margin-top: 10px;}
+  to{margin-top: 30px;}
+}
+
+@-webkit-keyframes back /* Safari 和 Chrome */
+{
+  from{margin-top: 10px;}
+  to{margin-top: 30px;}
+}
+
+@-o-keyframes back /* Opera */
+{
+  from{margin-top: 10px;}
+  to{margin-top: 30px;}
+}

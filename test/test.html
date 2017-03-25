@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>index</title>
+    <link href="../node_modules/fullpage/build/fullpage.css" rel="stylesheet">
+    <style>
+      *{margin: 0; padding: 0;}
+      .fp-section{line-height: 50px; background-color: #eee; text-align: center;}
+      .component{ margin-top: 20px; float: left; width: 100%; font-size: 28px; font-weight: bold;}
+      .myfirst{animation: myfirst 2s;-moz-animation: myfirst 2s;	/* Firefox */-webkit-animation: myfirst 2s;	/* Safari 和 Chrome */-o-animation: myfirst 2s;	/* Opera */ animation-fill-mode: forwards;}
+
+      @keyframes myfirst
+      {
+      from {background-color: none;}
+      to {background-color: yellow;}
+      }
+      @-moz-keyframes myfirst /* Firefox */
+      {
+      from {background-color: none;}
+      to {background-color: yellow;}
+      }
+      @-webkit-keyframes myfirst /* Safari 和 Chrome */
+      {
+      from {background-color: none;}
+      to {background-color: yellow;}
+      }
+      @-o-keyframes myfirst /* Opera */
+      {
+      from {background-color: none;}
+      to {background-color: yellow;}
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sectionContent" class="fp-section-content">
+      <div class="fp-section">
+        <div class="component">logo</div>
+      </div>
+      <div class="fp-section">
+        <div class='component'>description</div>
+      </div>
+      <div class="fp-section">
+        <div class="component">footer</div>
+      </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/fullpage/build/fullpage.min.js"></script>
+    <script>
+      $(function(){
+        fullpage.init('#sectionContent',{
+          afterLoad:function(anchorLink,index){
+            $('.component').removeClass('myfirst');
+            $('.component').eq(anchorLink-1).addClass('myfirst');
+          },
+        });
+      })
+    </script>
+  </body>
+</html>

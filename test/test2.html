@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>test2</title>
+    <link href="../node_modules/fullpage/build/fullpage.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/base.css" rel="stylesheet">
+    <link href="../node_modules/graph/build/css/graph.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/fullpage/build/fullpage.min.js"></script>
+    <script src="../node_modules/graph/build/js/base.js"></script>
+    <script src="../node_modules/graph/build/js/graph.js"></script>
+    <script>
+      $(function(){
+        var grapher=new graph();
+        grapher.addPage('index').addComponent('logo',{'type':'base','text':'logo','css':{'width':'100%','height':'60px','lineHeight':'60px','backgroundColor':'red','textAlign':'center'},'animateIn':{'opacity':'1'},'animateOut':{'opacity':0}, }).addPage('description').addComponent('description',{'type':'base','text':'description','css':{'width':'100%','height':'60px','lineHeight':'60px','backgroundColor':'yellow','textAlign':'center','opacity':0},'animateIn':{'opacity':'1'},'animateOut':{'opacity':0},}).load();
+      })
+    </script>
+  </body>
+</html>
