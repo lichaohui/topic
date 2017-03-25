@@ -1,6 +1,6 @@
 {
-  "name": "动画专题页",
-  "description": "组件化开发webapp",
+  "name": "topic",
+  "description": "topic of component",
   "main": "index.js",
   "authors": [
     "lichaohui"
