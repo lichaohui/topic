@@ -16,9 +16,11 @@
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.8.0",
+    "browser-sync": "^2.18.8",
     "easings": "^1.1.1",
     "echarts": "^3.4.0",
     "fullpage": "^1.4.2",
+    "gulp": "^3.9.1",
     "jquery": "^3.1.1",
     "jquery-ui": "^1.12.1"
   }
