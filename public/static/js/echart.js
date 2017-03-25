@@ -228,7 +228,7 @@ var age = {
       name:'半径模式',
       type:'pie',
       radius : [20, '70%'],
-      center : ['50%', '50%'],
+      center : ['50%', '57%'],
       roseType : 'radius',
       label: {
         normal: {
